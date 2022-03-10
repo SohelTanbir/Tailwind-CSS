@@ -8,13 +8,54 @@
     <link rel="stylesheet" href="../dist/output.css">
 </head>
 <body>
-  <h2 class="text-slate-100 font-bold text-4xl text-center mb-10 bg-sky-500 p-4 shadow-xl">Tailwind css is Awesome</h2>
-    <h2 class="bg-sky-700 hover:bg-sky-500 text-white text-center p-1 hover:text-yellow-200 hover:font-bold">Hover me</h2>
+<div class="wrapper max-w-full w-11/12 mx-auto">
+  <h2 class="text-slate-100 font-bold text-4xl text-center bg-sky-500 p-4 shadow-xl">Tailwind is Awesome</h2>
+  
+  <img src="../images/item-6.jpg" class="w-full h-80" alt="flower">
 
-    <button class="bottom-1 bg-blue-500 my-2 p-1 text-white rounded ">Save Change</button>
+<!-- user profile -->
+<div class="user-container bg-slate-50 px-4 py-10 my-3">
+  <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-3 ">
+    <div class="user bg-white rounded-md shadow-md px-4 pb-4 space-y-1 ">
+      <img src="../images/item-4.jpg" class="mx-auto rounded-full w-28 h-28" alt="user">
+      <div class="user-info">
+        <h2 class="text-xl text-black font-bold text-center">Mr. Developer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, doloremque?</p>
+        <button class="bg-sky-400 p-1 text-white rounded flex items-end">Read more </button>
+      </div>
+    </div>
+    <div class="user bg-white rounded-md shadow-md px-4 pb-4 space-y-1">
+      <img src="../images/item-4.jpg" class="mx-auto rounded-full w-28 h-28" alt="user">
+      <div class="user-info">
+        <h2 class="text-xl text-black font-bold text-center">Mr. Developer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, doloremque?</p>
+        <button class="bg-sky-400 p-1 text-white rounded flex items-end">Read more </button>
+      </div>
+    </div>
+    <div class="user bg-white rounded-md shadow-md px-4 pb-4 space-y-1">
+      <img src="../images/item-4.jpg" class="mx-auto rounded-full w-28 h-28" alt="user">
+      <div class="user-info">
+        <h2 class="text-xl text-black font-bold text-center">Mr. Developer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, doloremque?</p>
+        <button class="bg-sky-400 p-1 text-white rounded flex items-end">Read more </button>
+      </div>
+    </div>
+    <div class="user bg-white rounded-md shadow-md px-4 pb-4 space-y-1">
+      <img src="../images/item-4.jpg" class="mx-auto rounded-full w-28 h-28" alt="user">
+      <div class="user-info">
+        <h2 class="text-xl text-black font-bold text-center">Mr. Developer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, doloremque?</p>
+        <button class="bg-sky-400 p-1 text-white rounded flex items-end">Read more </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 
 <!--Login Form-->
-<div class="form-container bg-white w-96 mx-auto shadow-lg my-3 p-4 rounded">
+<div class="form-container bg-white lg:w-3/4 sm:w-full mx-auto shadow-lg  mt-4 my-3 p-4 rounded overflow-hidden">
   <form>
     <label class="block mb-3">
       <span class="block text-sm font-medium text-slate-500">Username</span>
@@ -23,12 +64,22 @@
 
     <label class="block mb-3">
       <span class="block text-sm font-medium text-slate-500">Email </span>
-      <input type="email" class="border border-slate-200 py-1 px-3 w-full focus:outline-sky-600" placeholder="Email">
+      <input type="email" class="border border-slate-200 py-1 px-3 w-full focus:outline-sky-600 placeholder:italic" placeholder="Email">
     </label>
 
     <label class="block mb-3">
       <span class="block text-sm font-medium text-slate-500">Password </span>
       <input type="password" class="border border-slate-200 py-1 px-3 w-full focus:outline-sky-600" placeholder="Password">
+    </label>
+
+    <label class="block mb-3">
+      <span class="block text-sm font-medium text-slate-500">upload image </span>
+      <input type="file" class="file:mr-4 file:py-2 file:px-4 file:rounded
+      file:bg-violet-50
+      hover:file:bg-violet-200
+      file:border-0
+      file:text-violet-700"
+       placeholder="Password">
     </label>
 
     <label class="block mb-3">
@@ -42,6 +93,19 @@
 
 
 
-      
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
 </body>
 </html>
