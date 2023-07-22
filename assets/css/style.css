@@ -1452,6 +1452,34 @@ video {
           padding-inline-end: 12rem;
 }
 
+.pr-0 {
+  padding-right: 0px;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1956,6 +1984,14 @@ video {
   .sm\:pr-4 {
     padding-right: 1rem;
   }
+
+  .sm\:pr-0 {
+    padding-right: 0px;
+  }
+
+  .sm\:pr-44 {
+    padding-right: 11rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1967,8 +2003,16 @@ video {
     max-width: 900px;
   }
 
+  .md\:p-0 {
+    padding: 0px;
+  }
+
   .md\:px-0 {
     padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .md\:pr-0 {
     padding-right: 0px;
   }
 }
