@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-fill{
+    @apply font-open-sans font-semibold text-[20px] text-white bg-hoverOrange py-3 px-16 mt-11 hover:bg-white hover:text-hoverOrange hover:border-2 hover:border-hoverOrange 
+}
+.btn-outline{
+    @apply font-open-sans font-semibold text-[20px] text-primary-color hover:text-white hover:cursor-pointer hover:bg-primary-bg py-3 px-16 mt-11
+}
