@@ -18,3 +18,6 @@
 .open span.line-3{
     @apply -rotate-45 origin-top-left absolute top-[11px] left-[1px]
 }
+.hide{
+    @apply hidden   
+}

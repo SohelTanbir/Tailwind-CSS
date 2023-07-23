@@ -11,9 +11,9 @@
 </head>
 <body>
     <!--Header Section Start-->
-    <header id="header-section" class="px-2 md:px-0">
+    <header id="header-section" >
         <div class="container mx-auto relative">
-            <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center px-2 md:px-0">
                 <div class="logo py-6 w-40">
                     <a href="./index.html">
                         <img class="w-28" src="./assets/images/logo/logo.png" alt="logo">
@@ -52,7 +52,32 @@
                     <span class="w-full h-0.5 line-2 bg-text-comon block mb-2 transition ease-in duration-200"></span>
                     <span class="w-full h-0.5 line-3 bg-text-comon block transition ease-in duration-200"></span>
                 </div>
-                
+                    <ul class="mobile-menu hide lg:hidden flex flex-col items-center p-10 bg-[#FFF9F5] w-full h-screen  absolute left-0 top-full right-0 z-10 ">
+                        <li class="mb-8">
+                            <a href="#" class="text-lg font-open-sans font-medium hover:text-hoverOrange text-activeItem relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">Home</a>
+                        </li>
+                        <li class="mb-8">
+                            <a href="#" class="text-lg font-open-sans font-medium hover:text-hoverOrange  relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">About</a>
+                        </li>
+                        <li class="mb-8">
+                            <a href="#" class="font-medium hover:text-hoverOrange relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">Teachers</a>
+                        </li>
+                        <li class="mb-8">
+                            <a href="#" class="text-lg font-open-sans font-medium hover:text-hoverOrange relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">Event</a>
+                        </li>
+                        <li class="mb-8">
+                            <a href="#" class="text-lg font-open-sans font-medium hover:text-hoverOrange relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">Gallery</a>
+                        </li>
+                        <li class="mb-8">
+                            <a href="#" class="text-lg font-open-sans font-medium hover:text-hoverOrange relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">Contact</a>
+                        </li>
+                        <li class="mb-8">
+                            <a href="#" class="text-lg font-open-sans font-medium hover:text-hoverOrange relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">Blog</a>
+                        </li>
+                        <li class="mb-8">
+                            <a href="#" class="text-lg font-open-sans font-medium hover:text-hoverOrange relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">Admission</a>
+                        </li>
+                    </ul>
                 <div class="login-btn bg-loginbtnBg bg-bottom w-20 h-32 text-center absolute top-0 right-0 me-10 hidden lg:block ">
                     <img class="w-8 object-fill mt-6 m-auto" src="./assets/images/logo/logo-white.png" alt="logo">
                     <a href="#" class="font-medium text-xl text-white mt-4">Login</a>
@@ -63,8 +88,8 @@
     <!--Header Section End-->
     
     <!--Banner Section Start-->
-    <section id="banner-section" class="bg-heroBg bg-cover min-h-[85vh] w-full px-2 md:px-0 text-center md:text-start">
-        <div class="container mx-auto flex flex-col lg:flex-row justify-between">
+    <section id="banner-section" class="bg-heroBg bg-cover min-h-[85vh] w-full  text-center md:text-start">
+        <div class="container mx-auto flex flex-col lg:flex-row justify-between px-2 md:px-0">
                 <div class="banner-left w-full lg:w-1/2">
                     <h5 class="uppercase text-sm font-open-sans font-bold text-white m
                     pt-20 relative before:absolute before::content[''] before:w-8 before:h-0.5 before:bg-white before:top-[75%]">A TRADITION SINCE 2002</h5>
@@ -217,7 +242,7 @@
                 <div class="teacher-title">
                     <h3 class="font-open-sans font-bold text-3xl sm:text-5xl relative before:absolute before::content[''] before:w-[150px] before:h-[5px] before:bg-hoverOrange before:-top-5">Our Teachers</h3>
                 </div>
-                <div class="slider-indecator">
+                <div class="slider-indecator hidden">
                  <div class="flex items-center">
                     <img class="w-12 cursor-pointer border-[1px] border-[#E3E2E1] " src="./assets/images/teachers/arrow-left.png" alt="">
                     <img class="w-12 cursor-pointer border-[1px] border-[#E3E2E1] " src="./assets/images/teachers/arrow-right.png" alt="">
@@ -270,7 +295,6 @@
             </div>
         </div>
   </section>
-
     <!--Teacher Section End-->
     
 
