@@ -13,40 +13,46 @@
     <!--Header Section Start-->
     <header id="header-section" class="px-2 md:px-0">
         <div class="container mx-auto relative">
-            <div class="flex justify-between">
+            <div class="flex justify-between items-center">
                 <div class="logo py-6 w-40">
                     <a href="./index.html">
                         <img class="w-28" src="./assets/images/logo/logo.png" alt="logo">
                     </a>
                 </div>
-                <nav class="hidden lg:block py-8 me-40">
+                <nav class="hidden lg:block py-8 me-40 ">
                     <ul class="flex">
-                        <li class="me-11">
+                        <li class="lg:me-8">
                             <a href="#" class="text-lg font-open-sans font-medium hover:text-hoverOrange text-activeItem relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">Home</a>
                         </li>
-                        <li class="me-11">
+                        <li class="lg:me-8">
                             <a href="#" class="text-lg font-open-sans font-medium hover:text-hoverOrange  relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">About</a>
                         </li>
-                        <li class="me-11">
+                        <li class="lg:me-8">
                             <a href="#" class="font-medium hover:text-hoverOrange relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">Teachers</a>
                         </li>
-                        <li class="me-11">
+                        <li class="lg:me-8">
                             <a href="#" class="text-lg font-open-sans font-medium hover:text-hoverOrange relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">Event</a>
                         </li>
-                        <li class="me-11">
+                        <li class="lg:me-8">
                             <a href="#" class="text-lg font-open-sans font-medium hover:text-hoverOrange relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">Gallery</a>
                         </li>
-                        <li class="me-11">
+                        <li class="lg:me-8">
                             <a href="#" class="text-lg font-open-sans font-medium hover:text-hoverOrange relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">Contact</a>
                         </li>
-                        <li class="me-11">
+                        <li class="lg:me-8">
                             <a href="#" class="text-lg font-open-sans font-medium hover:text-hoverOrange relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">Blog</a>
                         </li>
-                        <li class="me-11">
+                        <li class="lg:me-8">
                             <a href="#" class="text-lg font-open-sans font-medium hover:text-hoverOrange relative after:absolute after:content[''] after:w-0 hover:after:w-full after:ease-in after:duration-150  after:h-px after:top-full after:left-0 after:bg-hoverOrange">Admission</a>
                         </li>
                     </ul>
                 </nav>
+                <div id="humberger-menu" class="group w-[30px] cursor-pointer relative lg:hidden">
+                    <span class="w-full h-0.5 line-1 bg-text-comon block mb-2 transition ease-in duration-200"></span>
+                    <span class="w-full h-0.5 line-2 bg-text-comon block mb-2 transition ease-in duration-200"></span>
+                    <span class="w-full h-0.5 line-3 bg-text-comon block transition ease-in duration-200"></span>
+                </div>
+                
                 <div class="login-btn bg-loginbtnBg bg-bottom w-20 h-32 text-center absolute top-0 right-0 me-10 hidden lg:block ">
                     <img class="w-8 object-fill mt-6 m-auto" src="./assets/images/logo/logo-white.png" alt="logo">
                     <a href="#" class="font-medium text-xl text-white mt-4">Login</a>
@@ -70,9 +76,9 @@
                     <button class="btn-fill border-2 border-transparent m-0 md:mt-11" >Apply Now</button>
                 </div>
                 <div class="banner-right w-full lg:w-1/2">
-                      <div class="md:flex flex-col justify-center  mt-28 md:mt-56 pb-16 md:pb-0">
-                            <div class="play-btn flex justify-center w-full">
-                                <img class="w-28 cursor-pointer me-6" src="./assets/images/banner/play-btn.png" alt="paly">
+                      <div class="md:flex justify-center  mt-28 md:mt-56 pb-16 md:pb-0">
+                            <div class="play-btn flex justify-center ">
+                                <img class="w-28 h-28 cursor-pointer me-6" src="./assets/images/banner/play-btn.png" alt="paly">
                             </div>
                             <div class="text-content">
                                 <h6 class="font-open-sans font-semibold text-[20px] text-white">iNiLabs School</h6>
@@ -339,5 +345,7 @@
     </footer>
     <!--Footer Section End-->
 
+<!--scripts files-->
+<script src="./assets/js/main.js"></script>
 </body>
 </html>

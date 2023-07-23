@@ -9,3 +9,12 @@
 .btn-outline{
     @apply font-open-sans font-semibold text-[20px] text-primary-color hover:text-white hover:cursor-pointer hover:bg-primary-bg py-3 px-16
 }
+.open span.line-1{
+    @apply rotate-45 origin-top-left absolute -top-[10px] left-0.5
+}
+.open span.line-2{
+    @apply opacity-0 
+}
+.open span.line-3{
+    @apply -rotate-45 origin-top-left absolute top-[11px] left-[1px]
+}
